@@ -32,7 +32,6 @@ class Spot(db.Model):
     is_occupied = db.Column(db.Integer)
     is_checked_in = db.Column(db.Integer)
 
-
 ##### SCHEMAS ##### 
 
 class UserSchema(Schema):
@@ -63,6 +62,7 @@ spots_schema = SpotSchema(many=True)
 ###############################################################################################
 ############################################  API  ############################################
 ###############################################################################################
+
 
 
 #THIS METHOD GETS ALL USERS 
